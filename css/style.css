@@ -1,5 +1,7 @@
-.container {
-  padding-top: 100px;
+body, header {
+  margin: 50px;
+  border: 1px solid #c8c8c8;
+  box-shadow: 10px 5px 5px #c8c8c8;
 }
 
 .photo {
@@ -14,3 +16,10 @@ p {
   font-family: "Roboto Slab", serif;
 }
 
+.contact-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-top: 80px;
+}
