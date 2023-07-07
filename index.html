@@ -32,7 +32,8 @@
           <a
             class="navbar-brand"
             href="./index.html"
-            title="Tetiana Zlyhostieva">
+            title="Tetiana Zlyhostieva"
+            style="color: #fdeed8">
             Tetiana Zlyhostieva
           </a>
           <button
@@ -50,33 +51,33 @@
               <li class="nav-item">
                 <a
                   class="nav-link active"
-                  style="color: #fdeed8"
+                  
                   aria-current="page"
-                  href="#"
+                  href="#about"
                   title="About Tetiana">
                   About Me
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" title="Contact Tetiana">
+                <a class="nav-link" href="#contacts" title="Contact Tetiana">
                   Contact Me
                 </a>
               </li>
               <li class="nav-item">
                 <a
                   class="nav-link"
-                  href="#"
+                  href="#projects"
                   title="Tetiana's education and works">
                   Education &#38; Works
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" title="Tetiana's skills">
+                <a class="nav-link" href="#skills" title="Tetiana's skills">
                   Tech Skills
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" title="Tetiana's languages">
+                <a class="nav-link" href="#languages" title="Tetiana's languages">
                   Languages
                 </a>
               </li>
@@ -89,45 +90,58 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <div class="profile">
+            <div id="photo">
               <img
                 src="./images/Tetiana Zlyhostieva.jpg"
                 alt="Tetiana Zlyhostieva"
                 class="photo" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="profile" id="profile">
               <h1>Tetiana Zlyhostieva</h1>
               <hr />
               <h3>Junior Frontend Developer</h3>
             </div>
-            <div class="contacts">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="contacts" id="contacts">
               <h2>Contact information:</h2>
               <hr />
-              <i class="fa-solid fa-phone" style="color: #000000">
-                <a href="tel:+38 067 761 62 53">+38 067 761 62 53</a>
-              </i>
-              <br />
-              <i class="fa-solid fa-envelope" style="color: #000000">
-                <a href="mailto:tanyuwik777@gmail.com">tanyuwik777@gmail.com</a>
-              </i>
-              <br />
-              <i class="fa-brands fa-telegram" style="color: #000000">
-                <a href="https://web.telegram.org/">@Tanyuwik</a>
-              </i>
-              <br />
-              <i class="fa-brands fa-github" style="color: #000000">
-                <a href="https://github.com/Tanyuwik" target="_blank">
-                  https://github.com/Tanyuwik
-                </a>
-              </i>
-              <br />
-              <i class="fa-brands fa-linkedin" style="color: #000000">
-                <a
-                  href="https://www.linkedin.com/in/tetiana-zlyhostieva-b8b962218/"
-                  target="_blank">
-                  https://www.linkedin.com/in/tetiana-zlyhostieva-b8b962218/
-                </a>
-              </i>
+              <ul>
+                <li>
+                  <img src="./images/icon/email.svg" alt="email" />
+                  <a href="mailto:tanyuwik777@gmail.com" target="_blank">
+                    tanyuwik777@gmail.com
+                  </a>
+                </li>
+                <li>
+                  <img src="./images/icon/telegram.svg" alt="telegram" />
+                  <a href="https://web.telegram.org/" target="_blank">
+                    @Tanyuwik
+                  </a>
+                </li>
+                <li>
+                  <img src="./images/icon/github.svg" alt="github" />
+                  <a href="https://github.com/Tanyuwik" target="_blank">
+                    https://github.com/Tanyuwik
+                  </a>
+                </li>
+                <li>
+                  <img src="./images/icon/linkedin.svg" alt="linkedin" />
+                  <a
+                    href="https://www.linkedin.com/in/tetiana-zlyhostieva-b8b962218/"
+                    target="_blank">
+                    https://www.linkedin.com/in/tetiana-zlyhostieva-b8b962218/
+                  </a>
+                </li>
+              </ul>
             </div>
-            <div class="about-me">
+            <div class="about-me" id="about">
               <h2>About me:</h2>
               <hr />
               <p>
@@ -142,9 +156,24 @@
                 working in the IT field.
               </p>
             </div>
+            <div class="skills" id="skills">
+              <h2>Tech Skills:</h2>
+              <hr />
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>GitHub</li>
+                <li>Bootstrap</li>
+                <li>API</li>
+                <li>Responsive</li>
+                <li>PHP</li>
+              </ul>
+            </div>
           </div>
           <div class="col">
-            <div class="projects">
+            <div class="projects" id="projects">
               <h2>Projects:</h2>
               <hr />
               <ol>
@@ -182,7 +211,7 @@
                 </li>
               </ol>
             </div>
-            <div class="code">
+            <div class="code" id="code">
               <h2>Code Examples:</h2>
               <hr />
               <p>
@@ -195,20 +224,7 @@
                 }
               </p>
             </div>
-            <div class="skills">
-              <h2>Tech Skills:</h2>
-              <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>React.js</li>
-                <li>GitHub</li>
-                <li>Bootstrap</li>
-                <li>API</li>
-                <li>Responsive</li>
-              </ul>
-            </div>
-            <div class="courses">
+            <div class="courses" id="courses">
               <h2>Courses:</h2>
               <hr />
               <ol>
@@ -247,46 +263,51 @@
                 </li>
               </ol>
             </div>
-            <div class="languages">
-              <h2>Languages:</h2>
-              <hr />
-              <ul>
-                <li>
-                  <strong>Ukrainian:</strong>
-                  native
-                </li>
-                <li>
-                  <strong>Russian:</strong>
-                  native
-                </li>
-                <li>
-                  <strong>English:</strong>
-                  B1
-                </li>
-                <li>
-                  <strong>Polish:</strong>
-                  A1
-                </li>
-              </ul>
-            </div>
           </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="languages" id="languages"> 
+          <h2>Languages:</h2>
+          <hr />
+          <ul>
+            <li>
+              <strong>Ukrainian:</strong>
+              native
+            </li>
+            <li>
+              <strong>Russian:</strong>
+              native
+            </li>
+            <li>
+              <strong>English:</strong>
+              B1
+            </li>
+            <li>
+              <strong>Polish:</strong>
+              A1
+            </li>
+          </ul>
         </div>
       </div>
     </main>
     <footer>
-      <div class="contact-box">
-        &#169;2023 by Tetiana Zlyhostieva
-
-        <a href="https://github.com/Tanyuwik" target="_blank">
-          <img src="./images/icon/github.svg" alt="Github" 
-          width="50"/>
-        </a>
-        <a href="https://rs.school/js/">
-          <img
-            src="./images/rs_school_js.svg"
-            alt="RS scool logo"
-            width="100" />
-        </a>
+      <div class="footer" id="footer">
+        <p>&#169;2023 by Tetiana Zlyhostieva</p>
+        <p>
+          <a href="https://github.com/Tanyuwik" target="_blank">
+            <img src="./images/icon/github.svg" alt="Github" width="50" />
+          </a>
+        </p>
+        <p>
+          <a href="https://rs.school/js/">
+            <img
+              src="./images/rs_school_js.svg"
+              alt="RS scool logo"
+              width="100"
+              class="logo" />
+          </a>
+        </p>
       </div>
     </footer>
   </body>
