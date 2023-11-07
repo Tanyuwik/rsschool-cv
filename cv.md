@@ -17,7 +17,6 @@ Now I am continuing my studies and doing a pet-project to start working in the I
 - HTML5
 - CSS3
 - JavaScript
-- React.js
 - GitHub
 - Bootstrap
 - API
@@ -35,10 +34,12 @@ function formatDay(timestamp) {
 ```
 ***
 ### Projects:
-1. https://nimble-syrniki-0c69f4.netlify.app (HTML5, CSS3)
-2. https://fabulous-dodol-cf6a6f.netlify.app (HTML5, CSS3, React.js)
-3. https://jade-naiad-901bca.netlify.app (HTML5, CSS3)
-4. https://fluffy-dodol-0050ce.netlify.app (HTML5, CSS3, JavaScript)
+1. https://tanyuwik-library.netlify.app (HTML5, CSS3, JavaScript)
+2. https://tanyuwik-random-game-2048.netlify.app (HTML5, CSS3, JavaScript)
+3. https://tanyuwik-bose.netlify.app (HTML5, CSS3)
+4. https://tanyuwik-weather-app.netlify.app (HTML5, CSS3, JavaScript)
+5. https://tanyuwik-image-gallery.netlify.app (HTML5, CSS3, JavaScript)
+6. https://tanyuwik-audio-player.netlify.app (HTML5, CSS3, JavaScript)
 ***
 ### Courses:
 1. [SheCodes Basics](https://www.shecodes.io/certificates/37bd085cafb15a97da6674d53b034b61)
