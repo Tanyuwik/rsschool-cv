@@ -40,7 +40,7 @@ function formatDay(timestamp) {
 4. https://tanyuwik-weather-app.netlify.app (HTML5, CSS3, JavaScript)
 5. https://tanyuwik-image-gallery.netlify.app (HTML5, CSS3, JavaScript)
 6. https://tanyuwik-audio-player.netlify.app (HTML5, CSS3, JavaScript)
-***
+
 ### Courses:
 1. [SheCodes Basics](https://www.shecodes.io/certificates/37bd085cafb15a97da6674d53b034b61)
 2. [SheCodes Plus](https://www.shecodes.io/certificates/34d9837f4778172d927cedb89a87fafe)
