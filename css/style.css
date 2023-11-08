@@ -6,17 +6,51 @@
 }
 
 body {
-  margin: 80px;
+  margin: 60px;
   border: 1px solid #c8c8c8;
   box-shadow: 10px 5px 5px #c8c8c8;
   background-color: var(--secondary-color);
 }
 
+
 header {
-  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ff9900;
+  height: 75px;
 }
 
-.nav-link:hover {
+.header__top h1 {
+  margin: 0 auto;
+  padding: 15px 0 0 20px;
+  font-size: 30px;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.navigationList {
+  display: flex;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav__link {
+  padding-right: 30px;
+  color: #fdeed8;
+  font-family: var(--default-font-family);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav__link:hover {
   color: #fdeed8;
   transition: 0.5s;
   text-decoration: underline;
@@ -79,34 +113,43 @@ li {
   font-size: 18px;
 }
 
-.contacts {
-  margin-top: 100px;
+.title {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding-left: 135px;
+  margin-top: 105px;
+  margin-bottom: 100px;
 }
+
+.info {
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contacts,
+.about-me,
+.projects,
+.skills,
+.code,
+.courses, .languages {
+  width: 500px;
+  margin-bottom: 50px;
+  line-height: 34px;
+}
+
+.skills, .languages {
+  text-align: center;
+}
+
+
 
 .contacts a:hover {
   color: #ff9900;
   text-decoration: underline;
   transition: 0.3s;
-}
-
-.about-me {
-  margin-top: 100px;
-}
-
-.skills {
-  margin-top: 118px;
-}
-
-.projects {
-  margin-top: 130px;
-}
-
-.code {
-  margin-top: 60px;
-}
-
-.courses {
-  margin-top: 170px;
 }
 
 .courses a:hover {
@@ -115,30 +158,11 @@ li {
   transition: 0.3s;
 }
 
-.container .projects {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
 
 .projects a:hover {
   color: #ff9900;
   text-decoration: underline;
   transition: 0.3s;
-}
-
-.container .col {
-  padding: 0 50px 0 50px;
-}
-
-.container .languages {
-  margin: 0 350px 0 350px;
-  text-align: center;
-  padding-top: 100px;
-}
-
-.languages ul {
-  text-align: left;
-  margin-left: 200px;
 }
 
 .footer {
