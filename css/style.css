@@ -4,44 +4,34 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Roboto Slab", serif;
 }
-
 body {
   margin: 60px;
   border: 1px solid #c8c8c8;
   box-shadow: 10px 5px 5px #c8c8c8;
   background-color: var(--secondary-color);
 }
-
-
 header {
   display: flex;
   justify-content: space-between;
   background-color: #ff9900;
   height: 75px;
 }
-
 .header__top h1 {
   margin: 0 auto;
   padding: 15px 0 0 20px;
   font-size: 30px;
 }
-
-
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-
-
 .navigationList {
   display: flex;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
 }
-
 .nav__link {
   padding-right: 30px;
   color: #fdeed8;
@@ -49,13 +39,11 @@ header {
   font-size: 20px;
   text-decoration: none;
 }
-
 .nav__link:hover {
   color: #fdeed8;
   transition: 0.5s;
   text-decoration: underline;
 }
-
 .photo {
   display: block;
   margin: 0 auto;
@@ -63,7 +51,6 @@ header {
   border-radius: 60%;
   box-shadow: 6px 5px 25px #403939;
 }
-
 h1 {
   text-align: center;
   margin-top: 120px;
@@ -72,7 +59,6 @@ h1 {
   font-weight: 700;
   font-size: 56px;
 }
-
 h2 {
   text-align: center;
   font-family: var(--heading-font-family);
@@ -81,28 +67,23 @@ h2 {
   color: var(--branding-color);
   font-family: var(--default-font-family);
 }
-
 h3 {
   text-align: center;
   padding-right: 60px;
   font-size: 30px;
 }
-
 ul {
   list-style-type: none;
 }
-
 a {
   color: black;
   text-decoration: none;
   font-size: 18px;
 }
-
 p {
   font-family: var(--default-font-family);
   font-size: 18px;
 }
-
 pre {
   font-family: var(--default-font-family);
   font-size: 18px;
@@ -112,7 +93,6 @@ li {
   font-family: var(--default-font-family);
   font-size: 18px;
 }
-
 .title {
   display: flex;
   justify-content: space-between;
@@ -121,14 +101,12 @@ li {
   margin-top: 105px;
   margin-bottom: 100px;
 }
-
 .info {
   margin: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
 .contacts,
 .about-me,
 .projects,
@@ -139,32 +117,14 @@ li {
   margin-bottom: 50px;
   line-height: 34px;
 }
-
 .skills, .languages {
   text-align: center;
 }
-
-
-
-.contacts a:hover {
+.contacts a:hover, .courses a:hover, .projects a:hover{
   color: #ff9900;
   text-decoration: underline;
   transition: 0.3s;
 }
-
-.courses a:hover {
-  color: #ff9900;
-  text-decoration: underline;
-  transition: 0.3s;
-}
-
-
-.projects a:hover {
-  color: #ff9900;
-  text-decoration: underline;
-  transition: 0.3s;
-}
-
 .footer {
   display: flex;
   justify-content: space-around;
@@ -172,37 +132,31 @@ li {
   margin-bottom: 40px;
   padding-top: 100px;
 }
-
 @media (max-width: 1024px) {
   .container .languages {
     margin: 0 50px 0 50px;
     padding-top: 50px;
     text-align: center;
   }
-
   .languages ul {
     margin-left: 0;
     text-align: center;
   }
-
   .skills {
     text-align: center;
   }
 }
-
 @media (max-width: 576px) {
   body {
     box-shadow: none;
     border: none;
   }
-
   .photo {
     display: block;
     margin: 0 auto;
     width: 250px;
     border-radius: 60%;
   }
-
   h1 {
     text-align: center;
     margin-top: 90px;
@@ -211,38 +165,31 @@ li {
     font-weight: 700;
     font-size: 50px;
   }
-
   h3 {
     text-align: center;
     padding-right: 0px;
     font-size: 24px;
   }
-
   li {
     font-size: 16px;
     text-align: center;
   }
-
   a {
     color: black;
     text-decoration: none;
     font-size: 16px;
     text-align: center;
   }
-
   p {
     font-size: 16px;
   }
-
   .footer p {
     font-size: 12px;
     margin: 0 25px 0 25px;
   }
-
   .footer img {
     width: 35px;
   }
-
   .footer .logo {
     width: 55px;
   }
