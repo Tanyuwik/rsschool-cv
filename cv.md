@@ -24,28 +24,31 @@ Now I am continuing my studies and doing a pet-project to start working in the I
 ***
 ### Code Examples:
 ```
-function formatDay(timestamp) {
-  let date = new Date(timestamp * 1000);
-  let day = date.getDay();
-  let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-
-  return days[day];
-}
+burgerButton.addEventListener("click", (event) => {
+    burgerMenuActive = !burgerMenuActive;
+    profileCard.style.display = "none";
+    menu.style.display = "block";
+    event.stopPropagation();
+    menu.classList.toggle("burger_active");
+    toggleBurgerImage(burgerImage);
+  });
 ```
 ***
 ### Projects:
-1. https://tanyuwik-library.netlify.app (HTML5, CSS3, JavaScript)
-2. https://tanyuwik-random-game-2048.netlify.app (HTML5, CSS3, JavaScript)
-3. https://tanyuwik-bose.netlify.app (HTML5, CSS3)
-4. https://tanyuwik-weather-app.netlify.app (HTML5, CSS3, JavaScript)
-5. https://tanyuwik-image-gallery.netlify.app (HTML5, CSS3, JavaScript)
-6. https://tanyuwik-audio-player.netlify.app (HTML5, CSS3, JavaScript)
+1. https://tanyuwik-coffee-house.netlify.app (HTML5, CSS3, JavaScript)
+2. https://tanyuwik-library.netlify.app (HTML5, CSS3, JavaScript)
+3. https://tanyuwik-random-game-2048.netlify.app (HTML5, CSS3, JavaScript)
+4. https://tanyuwik-bose.netlify.app (HTML5, CSS3)
+5. https://tanyuwik-weather-app.netlify.app (HTML5, CSS3, JavaScript)
+6. https://tanyuwik-image-gallery.netlify.app (HTML5, CSS3, JavaScript)
+7. https://tanyuwik-audio-player.netlify.app (HTML5, CSS3, JavaScript)
 
 ### Courses:
 1. [SheCodes Basics](https://www.shecodes.io/certificates/37bd085cafb15a97da6674d53b034b61)
 2. [SheCodes Plus](https://www.shecodes.io/certificates/34d9837f4778172d927cedb89a87fafe)
 3. [SheCodes Responsive](https://www.shecodes.io/certificates/4c878477b88938f8c82fee7fc9be0637)
 4. [SheCodes React](https://www.shecodes.io/certificates/3b40069acb4742a03dc5b5335e9e3a36)
+5. [RS School - JavaScript/Front-end Stage#0 (In Progress)](https://rs.school/courses/javascript-preschool-ru)
 ***
 ### Languages:
 + **Ukrainian:** native
