@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +10,11 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto+Slab:wght@200;300;400;500;600&display=swap"
     rel="stylesheet">
-  <link rel="icon" type="image/ico" sizes="32x32" href="./images/icon/favicon.ico">
+  <link rel="icon" type="image" sizes="32x32" href="./images/icon/favicon-32x32.png">
   <link rel="stylesheet" href="css/style.css">
   <title>Tetiana Zlyhostieva</title>
 </head>
+
 <body>
   <header>
     <div class="header__top">
@@ -44,7 +46,7 @@
           <div class="profile" id="profile">
             <h1>Tetiana Zlyhostieva</h1>
             <hr>
-            <h3>Junior Frontend Developer</h3>
+            <h3>Frontend Developer</h3>
           </div>
         </div>
       </div>
@@ -101,6 +103,12 @@
           <hr>
           <ol>
             <li>
+              <a href="https://tanyuwik-coffee-house.netlify.app" target="_blank">
+                https://tanyuwik-coffee-house.netlify.app
+              </a>
+              (HTML5, CSS3, JavaScript)
+            </li>
+            <li>
               <a href="https://tanyuwik-library.netlify.app" target="_blank">
                 https://tanyuwik-library.netlify.app
               </a>
@@ -155,14 +163,15 @@
           <h2>Code Examples:</h2>
           <hr>
           <pre>
-                function formatDay(timestamp) {
-                   let date = new Date(timestamp * 1000);
-                   let day = date.getDay();
-                   let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-
-                   return days[day];
-                }
-              </pre>
+            burgerButton.addEventListener("click", (event) => {
+                burgerMenuActive = !burgerMenuActive;
+                profileCard.style.display = "none";
+                menu.style.display = "block";
+                event.stopPropagation();
+                menu.classList.toggle("burger_active");
+                toggleBurgerImage(burgerImage);
+            });
+          </pre>
         </div>
         <div class="courses" id="courses">
           <h2>Courses:</h2>
@@ -189,13 +198,8 @@
               </a>
             </li>
             <li>
-              <a href="https://rs.school/js/" target="_blank">
-                RS School - JavaScript/Front-end Stage#0
-              </a>
-            </li>
-            <li>
-              <a href="https://rs.school/js/" target="_blank">
-                RS School - JavaScript/Front-end Stage#1 (In Progress)
+              <a href="https://rs.school/courses/javascript-ru" target="_blank">
+                RS School - JavaScript/Front-end Stage#0 (In Progress)
               </a>
             </li>
           </ol>
@@ -227,18 +231,19 @@
   </main>
   <footer>
     <div class="footer" id="footer">
-      <p>&#169;2023 by Tetiana Zlyhostieva</p>
+      <p>&#169;2024 by Tetiana Zlyhostieva</p>
       <p>
         <a href="https://github.com/Tanyuwik" target="_blank">
           <img src="./images/icon/github.svg" alt="Github" width="50">
         </a>
       </p>
       <p>
-        <a href="https://rs.school/js/">
+        <a href="https://rs.school/courses/javascript-ru" target="_blank">
           <img src="./images/rs_school_js.svg" alt="RS scool logo" width="100" class="logo">
         </a>
       </p>
     </div>
   </footer>
 </body>
+
 </html>
